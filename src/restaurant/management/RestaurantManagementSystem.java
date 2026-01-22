@@ -171,7 +171,8 @@ public class RestaurantManagementSystem {
             ps.executeUpdate();
             System.out.println("✓ Заказ создан!");
             c.close();
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             e.printStackTrace();
         }
     }
