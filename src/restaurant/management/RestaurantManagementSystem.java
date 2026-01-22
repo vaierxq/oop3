@@ -135,6 +135,7 @@ public class RestaurantManagementSystem {
             System.out.println("✓ Блюдо удалено!");
             c.close();
         } catch (Exception e) {
+
             e.printStackTrace();
         }
     }
