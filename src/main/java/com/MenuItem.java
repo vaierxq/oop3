@@ -1,4 +1,4 @@
-package restaurant.management;
+package com;
 
 public class MenuItem {
     private int id;

@@ -1,4 +1,4 @@
-package restaurant.management;
+package main.java.com;
 
 public class FoodItem {
     private String name;

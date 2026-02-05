@@ -1,4 +1,4 @@
-package restaurant.management;
+package com;
 
 import java.sql.*;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class RestaurantManagementSystem {
     private static final String URL = "jdbc:postgresql://localhost:5432/restaurant_db";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "123456";
+    private static final String PASSWORD = "1234";
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

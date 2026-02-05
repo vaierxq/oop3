@@ -1,6 +1,7 @@
-package restaurant.management;
+package com;
 
-public class Restaurant {
+public class Restaurant
+{
     private int id;
     private String name;
     private String address;
