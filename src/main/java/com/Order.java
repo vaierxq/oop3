@@ -6,6 +6,9 @@ public class Order {
     private double totalAmount;
     private String status;
 
+    // ✅ нужен Jackson
+    public Order() {}
+
     public Order(int id, String customerName, double totalAmount, String status) {
         this.id = id;
         this.customerName = customerName;
@@ -19,21 +22,15 @@ public class Order {
         this.status = status;
     }
 
-    public int getId() {
-        return id;
-    }
+    public int getId() { return id; }
+    public String getCustomerName() { return customerName; }
+    public double getTotalAmount() { return totalAmount; }
+    public String getStatus() { return status; }
 
-    public String getCustomerName() {
-        return customerName;
-    }
-
-    public double getTotalAmount() {
-        return totalAmount;
-    }
-
-    public String getStatus() {
-        return status;
-    }
+    public void setId(int id) { this.id = id; }
+    public void setCustomerName(String customerName) { this.customerName = customerName; }
+    public void setTotalAmount(double totalAmount) { this.totalAmount = totalAmount; }
+    public void setStatus(String status) { this.status = status; }
 
     @Override
     public String toString() {
